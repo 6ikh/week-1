@@ -9,9 +9,10 @@ def palindrome(word):
 #reverse the string and store it in word   
     return word == word[::-1] 
 #checking each word 
-print(palindrome("racecar"))
-print(palindrome("Nurses Run"))
-print(palindrome("Sit on a potato pan, Otis."))
+#print(palindrome("racecar"))
+#print(palindrome("Nurses Run"))
+#print(palindrome("Sit on a potato pan, Otis."))
+
 #defining function parentheses 
 def parentheses(sequence):
 #start counter at 0
@@ -29,8 +30,8 @@ def parentheses(sequence):
 #return count 0 so there isnt any unmatched parentheses left     
     return count == 0
 #checking each sequence
-print(parentheses("((blah)()()())"))
-print(parentheses("(((())blee))"))
-print(parentheses("(()hello((())()))"))
-print(parentheses("((((((())"))
-print(parentheses("()))"))
+#print(parentheses("((blah)()()())"))
+#print(parentheses("(((())blee))"))
+#print(parentheses("(()hello((())()))"))
+#print(parentheses("((((((())"))
+#print(parentheses("()))"))
